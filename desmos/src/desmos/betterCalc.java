@@ -187,7 +187,7 @@ public class betterCalc {
 	}
 	
 	public boolean divCheck(int arr2[], int divisor) {
-		int[] arr = main.powerSaves.clone();
+		int[] arr = main.getPowers();
 		for(int x = 0; x < arr.length; x++) {
 			System.out.print(arr[x]);
 		}
